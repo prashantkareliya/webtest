@@ -776,7 +776,7 @@ class Footer extends StatelessWidget {
         children: [
           const Text(
             "© 2025 GoalScripture. All Rights Reserved.",
-            style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
+            style: TextStyle(color: AppColors.textSecondary, fontSize: 15),
           ),
           // You can add social media icons here if you like
         ],
