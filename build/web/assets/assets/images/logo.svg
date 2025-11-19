@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define the color for the logo -->
+    <defs>
+        <linearGradient id="logoGradient" x1="0" y1="0" x2="100" y2="100">
+            <stop offset="0%" stop-color="#3b82f6"/> <!-- A nice blue -->
+            <stop offset="100%" stop-color="#2563eb"/> <!-- A slightly darker blue -->
+        </linearGradient>
+    </defs>
+
+    <!-- The main "G" shape, resembling a target -->
+    <path d="M50 10 C27.9 10 10 27.9 10 50 C10 72.1 27.9 90 50 90 C60 90 69.1 86.4 76.4 80.5" stroke="url(#logoGradient)" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Inner circle of the target -->
+    <circle cx="50" cy="50" r="15" stroke="url(#logoGradient)" stroke-width="8"/>
+
+    <!-- The "arrow" element, pointing to the center, completing the "G" -->
+    <path d="M78 50 L58 50 M90 25 L70 45" stroke="url(#logoGradient)" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Text "GoalScripture" -->
+    <!-- You can remove this part if you only want the icon -->
+    <text x="5" y="115" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#334155">
+        GoalScripture
+    </text>
+</svg>
